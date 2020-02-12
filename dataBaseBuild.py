@@ -1,4 +1,5 @@
 from datetime import datetime
+''' we chose what input we are going to hve which is qr code ,and given number'''
 studentId = str(input("Enter your ID here: ")) #students input there student id numbers
 now = str(datetime.now())
 if studentId in ("110255","112266","123987","212901"): #this is my database of students
